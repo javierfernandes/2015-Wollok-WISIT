@@ -1,0 +1,53 @@
+\section{Conclusion}
+\label{sec:conclusion}
+
+% In this paper, we looked at problem P with this context and these
+% constraints. We proposed solution S. It has such good points and such not so
+% good ones. 
+
+Wollok is an educative, object-oriented programming language which is accompanied by an advanced programming environment.
+Both tools are highly customized to give support to an introductory OOP course.
+Our approach consists of the combination of these three cornerstones: incremental learning path, customized language and specialized programming environment.
+
+First, we defined an \emph{incremental\np{Revisar la idea de Javi} learning path} choosing exactly which are the concepts we want to teach and the order we want to teach them.
+The learning path starts with a \emph{simplified programming model} (SPM), \ie one which uses less concepts than a full-fledged OOP language.
+The SPM allows the student to build simple programs without requiring more advanced concepts.
+The path should attach the SPM with a good set of programming exercises, specifically oriented to be easy to build in the selected SPM.
+Once the student has mastered the concepts on the SPM, we can go a step further and introduce the next set of concepts.
+\np{Acá se podría hablar de constructivismo.}
+
+Next, defining our own programming language, allows us to give full support to the selected learning path, 
+avoiding the need of explaining complex concepts too soon in the course or forcing the student to write \emph{boilerplate code} which he cannot yet understand.
+Finally, a good programming environment, helps detecting errors, provides guidance and most significantly allows the student to \emph{explore}.
+We have found that often students are afraid to search for solutions not seen in the class or test their own ideas, 
+which leads them to restricting themselves into a smaller set of concepts and tools they feel more secure about.
+A controlled environment empowers students to look around and explore new possibilities.
+
+\medskip
+
+% Now we could do this or that.
+\label{sec:furtherWork}
+One major objective in our future work is the integration of more \emph{automatic user interaction} tools into the Wollok environment.
+Our objective is to enable the students to have visual and interactive programs without requiring them to learn the subleties of GUI building, 
+extending the ideas in Gobstones \cite{lopez_nombre_2012} to object-oriented domains.
+Some advances in this area can be seen in our previous work named Hoope \cite{estefania_miguel_hoope_2013}.
+
+The second major objective is to continue improving the detection of programming errors.
+A cornerstone to achieve this goal is the type inferer, which is our current focus.
+The other half of our future work in this area is a powerfull \emph{effect system} \cite{nielson_type_1999}.
+
+Another characteristic of programming in the real world is the need to work in teams. 
+The success of object-oriented languages is partly due to their advantages in group projects. 
+It is necessary teach our students about the techniques needed for teamwork, right from the beginning. 
+To do this, it is essential that the environment has some form of support for group work \cite{kolling_problem_1999}.
+Therefore, we plan to create simplified tools to integrate wollok te \emph{version control systems}.
+
+Also we are working in adding more automatic refactor tools, and a better type inference implementation. 
+Even working on adding an effect system to detect correct usage of the language and the code conventions.
+
+One of the important development steps to be done is the implementation of a web version or a lighter version, using less hardware requirements, 
+with the aim to run the solution in small netbooks like the ones in the \emph{Conectar-Igualdad} program\footnote{http://www.conectarigualdad.gob.ar/}.
+
+Finally, in the educational use of the tool, we will be testing it in different educational environments to get feedback about the learning experience; 
+generating learning material (\eg examples, exercises, guides). As the focus of the tool is to provide a new way of teaching programming skills. 
+For this objective, we will be working in collaboration with Universities, Teachers and non profit organizations.

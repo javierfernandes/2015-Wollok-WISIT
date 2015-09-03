@@ -1,0 +1,15 @@
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.backup
+*~
+/tmp
+/main.synctex.gz
+.project
+.texlipse
+*.nav
+*.snm
+*.toc
+*.vrb
